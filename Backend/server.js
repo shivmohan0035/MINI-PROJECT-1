@@ -1,4 +1,4 @@
-const dotenv=require('dotenv').config();   // Load environment variables from .env file
+require('dotenv').config();   // Load environment variables from .env file
 const app=require('./src/app');
 const connectDB=require('./src/db/db');
 const Postmodel=require('./src/models/post.model');
